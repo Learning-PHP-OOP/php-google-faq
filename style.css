@@ -1,0 +1,60 @@
+/* regole generali */
+*{
+ margin:0
+ padding.0;
+ box-sizing: border-box;
+ font-family: "product sans","open sans",arial,sans-serif;
+ color:#5f6368;
+ text-decoration: none;
+}
+
+/* header general */
+header{
+ position: fixed;
+ top: 0;
+ width: 100%;
+ border-bottom: 1px solid rgba(151,151,151,0.5);
+ height: 100px;
+ background-color: white;
+ z-index: 1;
+ padding: 20px;
+}
+
+/* header sup */
+.log{
+ display: flex;
+ justify-content: flex-start;
+}
+
+a:nth-child(2){
+ padding-left: 15px;
+ font-size: 20px;
+}
+
+/* header inf */
+.navbar{
+ display: flex;
+ justify-content: space-between;
+}
+
+.nav_list ul li{
+ display: inline-block;
+ padding-right: 25px;
+}
+
+.account{
+ padding-right: 30px;
+}
+
+#opentext{
+ color: #3367d6;
+ border-bottom: 4px solid #3367d6;
+}
+
+.faq{
+ padding: 180px;
+}
+
+h2{
+ color: #3c4043;
+}
