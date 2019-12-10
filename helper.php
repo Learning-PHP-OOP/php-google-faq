@@ -1,6 +1,6 @@
 <?php
-  foreach ($arrayFaq as $key => $value) { ?>
-    <h2><?php print $value["domanda"];?> </h2>
-    <p><?php print $value["risposta"];?></p><?php
+  foreach ($arrayFaq as $faq) { ?>
+    <h2><?php print $faq["domanda"];?></h2>
+    <p><?php print $faq["risposta"];?></p><?php
   }
  ?>
