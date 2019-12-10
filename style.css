@@ -8,6 +8,10 @@
  text-decoration: none;
 }
 
+a{
+ color:#3367d6;
+}
+
 /* header general */
 header{
  position: fixed;
@@ -40,6 +44,7 @@ a:nth-child(2){
 .nav_list ul li{
  display: inline-block;
  padding-right: 25px;
+ cursor: pointer;
 }
 
 .account{
@@ -49,6 +54,8 @@ a:nth-child(2){
 #opentext{
  color: #3367d6;
  border-bottom: 4px solid #3367d6;
+ padding-right: 0;
+ cursor: pointer;
 }
 
 .faq{
