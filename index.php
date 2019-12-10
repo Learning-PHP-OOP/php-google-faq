@@ -6,6 +6,8 @@
   <link rel="stylesheet" href="/style.css">
   <!--font -->
   <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+  <!-- Font-awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
  </head>
  <body>
   <div class="container">
@@ -42,6 +44,25 @@
    </div>
   </main>
 
+  <!--footer-->
+  <footer>
+   <div class="footerContainer">
+    <div class="footer_left">
+      <a href="#">Google</a>
+      <a href="#">Tutto su Google</a>
+      <a href="#">Privacy</a>
+      <a href="#">Termini</a>
+    </div>
+    <div class="footer_right">
+      <span><i class="fas fa-comment-alt"></i></span>
+      <select id="language">
+        <option>Italiano</option>
+        <option>English</option>
+        <option>Espanol</option>
+      </select>
+    </div>
+   </div>
+  </footer>
 
  </div>
 </body>
